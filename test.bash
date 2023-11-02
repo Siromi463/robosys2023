@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2023 Fujioka Kimiyasu kimimi.nyan@gmail.com
 # SPDX-License-Identifier: BSD-3-Clause
 
-ng () {
+ng (){
 	echo NG at Line $1
 	res=1
 }
