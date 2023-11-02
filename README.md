@@ -1,6 +1,3 @@
-# robosys2023
-パイソン使います、ウブンツでな
-
 # plusコマンド
 [![test](https://github.com/Siromi463/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/Siromi463/robosys2023/actions/workflows/test.yml)
 
