@@ -2,16 +2,40 @@
 # SPDX-FileCopyrightText: 2023 Fujioka Kimiyasu kimimi.nyan@gmail.com
 # SPDX-License-Identifier: BSD-3-Clause
 
-
 import sys
 
-ans = 0.0
+ans1 = 0.0
+ans2 = 1.0 
+ans3 = 100.0
+ans4 = 100.0
+sum_ans = 0.0
+
 for line in sys.stdin:
     line = line.rstrip()
 
     try:
-        ans += int(line)
+        ans1 += int(line)
     except:
-        ans += float(line)
+        ans1 += float(line)
 
-print(ans)
+    try:
+        ans2 *= int(line)
+    except:
+        ans2 *= float(line)
+
+    try:
+        ans3 -= int(line)
+    except:
+        ans3 -= float(line)
+
+    try:
+        ans4 /= int(line)
+    except:
+        ans4 /= float(line)
+
+sum_ans = ans1 + ans2 + ans3 + ans4
+print("標準入力の合計値：" + str(ans1))
+print("標準入力の乗算値：" + str(ans2))
+print("標準入力の合計値を１００から引いた値：" + str(ans3))
+print("標準入力で１００を割っていった最終値：" + str(ans4))
+print("上四つの合計値：" + str(sum_ans))
