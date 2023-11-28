@@ -34,8 +34,8 @@ for line in sys.stdin:
         ans4 /= float(line)
 
 sum_ans = ans1 + ans2 + ans3 + ans4
-print("標準入力の合計値：" + str(ans1))
-print("標準入力の乗算値：" + str(ans2))
-print("標準入力の合計値を１００から引いた値：" + str(ans3))
-print("標準入力で１００を割っていった最終値：" + str(ans4))
-print("上四つの合計値：" + str(sum_ans))
+print("標準入力の合計値：{}".format(ans1))
+print("標準入力の乗算値：{}".format(ans2))
+print("標準入力の合計値を１００から引いた値：{}".format(ans3))
+print("標準入力で１００を割っていった最終値：{}".format(ans4))
+print("上四つの合計値：{}".format(sum_ans))
