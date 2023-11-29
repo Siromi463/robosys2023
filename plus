@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2023 Fujioka Kimiyasu kimimi.nyan@gmail.com
+# SPDX-FileCopyrightText: 2023 Siromi463 kimimi.nyan@gmail.com
 # SPDX-License-Identifier: BSD-3-Clause
 
 import sys
@@ -17,17 +17,18 @@ for line in sys.stdin:
 
 
     try:
+
         ans1 += float(line)
         ans2 *= float(line)
         ans3 -= float(line)
         ans4 /= float(line)
 
     except:
-        
+
         list_char1 = list(line)
         for n in list_char1:
             sum_char_code1 += ord(n)
-        
+
         print("入力された文字列の各Unicodeの合計:{}".format(sum_char_code1))
         sys.exit()
 

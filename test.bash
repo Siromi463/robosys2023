@@ -1,5 +1,5 @@
 #!/bin/bash -xv
-# SPDX-FileCopyrightText: 2023 Fujioka Kimiyasu kimimi.nyan@gmail.com
+# SPDX-FileCopyrightText: 2023 Siromi463 kimimi.nyan@gmail.com
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng (){
