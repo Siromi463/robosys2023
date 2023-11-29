@@ -14,7 +14,7 @@
 
 １．以下のURLをコピーする。<br>
 [URL:robosys2023](https://github.com/Siromi463/robosys2023.git)
-<br>
+<br><br>
 
 ２．ターミナル内でクローンする。<br>
 ```
@@ -30,7 +30,7 @@ robosys2023
 
 <br>
 
-４．使ってみよう！
+４．使ってみよう！<br><br>
 
 ### 使い方
 
