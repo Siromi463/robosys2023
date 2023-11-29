@@ -11,7 +11,7 @@
 <br>
 
 * ２．ターミナル内でクローンする。
-
+'git clone https://github.com/Siromi463/robosys2023.git'
 
 
 
