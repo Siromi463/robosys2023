@@ -16,7 +16,7 @@
 [URL:robosys2023](https://github.com/Siromi463/robosys2023.git)
 <br><br>
 
-２．ターミナル内でクローンする。<br>
+２．ターミナル内でURLのリポジトリをクローンする。<br>
 ```
 $ git clone https://github.com/Siromi463/robosys2023.git
 ```
