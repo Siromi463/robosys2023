@@ -39,7 +39,7 @@ robosys2023
 
 	* 文字の場合 : 全文字のUnicode値の合計値 
 
-<summary>**使用例１:`$ seq 5 | ./plus`**<summary>
+* 使用例１:`$ seq 5 | ./plus`
 	* 入力値: [5 4 3 2 1]
 	* 出力値:⇓  ⇓  ⇓
 ```
