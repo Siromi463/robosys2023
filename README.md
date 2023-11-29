@@ -11,7 +11,14 @@
 <br>
 
 * ２．ターミナル内でクローンする。<br>
-`git clone https://github.com/Siromi463/robosys2023.git`
+`$ git clone https://github.com/Siromi463/robosys2023.git`
+<br>
+
+* ３．インストールされているか確認。<br>
+```
+$ ls
+<span style="color: blue; ">robosys2023</span>
+```
 
 
 
