@@ -1,11 +1,16 @@
-# plusコマンド
+# robosys2023
 [![test](https://github.com/Siromi463/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/Siromi463/robosys2023/actions/workflows/test.yml)
 
 
+## 概要
 
+* このソフトウェアパッケージは、2023年度のロボットシステム学の講義内で利用したものを改変したものです。
 
+* plusというコマンドがあります。
 
-##　インストール方法
+##
+
+###　インストール方法
 * １．以下のURLをコピーする。<br>
 [URL:robosys2023](https://github.com/Siromi463/robosys2023.git)
 <br>
@@ -25,20 +30,20 @@ robosys2023
 
 * ４．使ってみよう！
 
-##　使い方
+###　使い方
 * 
 
 
 
-## 必要なソフトウェア
+### 必要なソフトウェア
 * Python
   * テスト済み：3.7 ~ 3.10
 
-## テスト環境
+### テスト環境
 * Ubuntu 22.04
 
 
-## ライセンス
+### ライセンス
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * © 2023 Fujioka Kimiyasu
