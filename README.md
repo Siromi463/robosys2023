@@ -6,7 +6,10 @@
 
 
 ##　インストール方法
+* １．以下のURLをコピーする。
 	[URL] [robosys2023](git@github.com:Siromi463/robosys2023.git)
+
+* ２．ターミナル内でクローンする。
 
 
 
