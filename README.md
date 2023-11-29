@@ -54,6 +54,12 @@ robosys2023
 	* 入力値: A
 	* 出力値: `入力された文字列の各Unicodeの合計:65`
 
+<br>
+
+* 使用例３:`$ echo Hello World | ./plus`
+	* 入力値: Hello World
+	* 出力値: `入力された文字列の各Unicodeの合計:1052` 
+
 
 
 ### 必要なソフトウェア
