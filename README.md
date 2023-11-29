@@ -8,7 +8,7 @@
 ##　インストール方法
 * １．以下のURLをコピーする。
 	[URL] [robosys2023](git@github.com:Siromi463/robosys2023.git)
-
+        [URL] [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * ２．ターミナル内でクローンする。
 
 
