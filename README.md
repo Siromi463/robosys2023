@@ -24,5 +24,5 @@
 
 
 * このソフトウェアパッケージ内のplusのコードは、以下のリンクから、著者の許諾を得て改変しています。
-	* [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+	[URL] [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 
