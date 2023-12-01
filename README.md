@@ -4,25 +4,20 @@
 
 ## 概要
 
-* このソフトウェアパッケージは、2023年度のロボットシステム学の講義内で利用したものを改変したものです。
-
 * パッケージ内にはplusというコマンドがあります。
 
 ## plusコマンド
 
 ### インストール方法
 
-１．以下のURLをコピーする。<br>
-[URL:robosys2023](https://github.com/Siromi463/robosys2023.git)
-<br><br>
 
-２．ターミナル内でURLのリポジトリをクローンする。<br>
+１．ターミナル内でリポジトリをクローンする。<br>
 ```
 $ git clone https://github.com/Siromi463/robosys2023.git
 ```
 <br>
 
-３．インストールされているか確認。(robosys2023が表示されていればOK)<br>
+２．インストールされているか確認。(robosys2023が表示されていればOK)<br>
 ```
 $ ls
 robosys2023
@@ -30,7 +25,7 @@ robosys2023
 
 <br>
 
-４．使ってみよう！<br><br>
+３．使ってみよう！<br><br>
 
 ### 使い方
 
@@ -39,28 +34,30 @@ robosys2023
 
 	* 文字の場合 : 全文字のUnicode値の合計値 
 
-* 使用例１:`$ seq 5 | ./plus`
-	* 入力: [5 4 3 2 1]
-	* 出力: ⇓  ⇓  ⇓
-		```
-		15.0
-		120.0
-		85.0
-		0.8333333333333334
-		220.83333333333334
-		```
+* 使用例１:
+	```
+	$ seq 5 | ./plus
+	15.0
+	120.0
+	85.0
+	0.8333333333333334
+	220.83333333333334
+	```
 <br>
 
-* 使用例２:`$ echo A | ./plus` 
-	* 入力: A
-	* 出力: `65`
+* 使用例２:
+	```
+	$ echo A | ./plus
+	65
+	```
 
 <br>
 
-* 使用例３:`$ echo Hello World | ./plus`
-	* 入力: Hello World
-	* 出力: `1052` 
-
+* 使用例３:
+	```
+	$ echo Hello World | ./plus
+	1052
+	```
 
 
 
@@ -82,4 +79,4 @@ robosys2023
 
 * このソフトウェアパッケージ内のplusのコードは、以下のリンクから、著者の許諾を得て改変しています。
 	* [ryuichiueda/my_slides/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
-* © 2022 Ryuichi Ueda
+	* © 2022 Ryuichi Ueda
